@@ -1,0 +1,99 @@
+body {
+    background-image: url("../images/foundation-tv-series-background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 120%;
+}
+
+h1 {
+    color: rgb(236, 181, 70);
+    background-color: rgb(0,39,82);
+    opacity: 0.9;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 5vmax;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(229,76,31);
+    font-size: 4vmax;
+}
+
+p {
+    font-family: Tahoma;
+    color: rgb(193,199,198);
+    text-align: justify;
+    font-size: 1.5vmin;
+}
+
+a {
+    font-style: italic;
+    color: cyan;
+    text-decoration: none;
+
+}
+
+div.datos {
+    margin-bottom: 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+
+.informacion, .datos, .formulario {
+    padding: 20px;
+    background: linear-gradient(to bottom right, rgba(40,1,82,0.8), rgb(0,39,82));
+}
+
+ul {
+    font-family: Tahoma;
+    color: rgb(193,199,198);
+    text-align: justify; 
+    font-size: 1.5vmin;
+}
+
+h5 {
+    color: rgb(236, 181, 70);
+}
+
+#parrafoIntro{
+    background-color: rgba(10, 1, 94, 0.3);
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 2vmin;
+    text-align: auto;
+}
+
+h3 {
+    color: rgb(236, 181, 70);
+    font-size: 3vmax;
+    text-align: center;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+
+form {
+    color: white;
+    font-weight: bold;
+}
+
+div.formulario {
+    margin-bottom: 20px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+
+#footnote {
+    border-top: 2px solid yellow;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background-color: black;
+}
